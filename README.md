@@ -3,6 +3,9 @@
 ## Overview
 GENet (Gene Expression Network from Histone and TF Integration) is a novel supervised model architecture designed to predict gene expression. This architecture effectively combines Graph Convolutional Networks (GCNs) with a unique integration approach to enhance the prediction of gene expression levels.
 
+![image](https://github.com/mahdieh1/GENet/assets/12238056/050172e2-ed16-473e-a9d7-04d41ec714b6)
+
+
 ## Model Architecture
 Initially, GENet employs Graph Convolutional Networks (GCNs) to tackle the classification task for each feature. We construct a weighted sample similarity network for each feature type using cosine similarity, which serves as the input for the GCNs. The strength of GCNs lies in their capability to utilize both attribute data and sample interconnections, thereby enhancing prediction accuracy.
 
