@@ -36,7 +36,7 @@ cd GENet
 !pip install -r requirements.txt
 
 ### 3. Run the provided notebook:
-Upload the GEnet (1).ipynb file to your Google Colab environment and open it. Run the cells sequentially to execute the code.
+Upload the GEnet.ipynb file to your Google Colab environment and open it. Run the cells sequentially to execute the code.
 
 ## Usage Examples
 Here are some basic steps to get started with GENet:
