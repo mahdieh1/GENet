@@ -20,17 +20,36 @@ GCN Processing: Separate GCNs process these networks to capture complex data rel
 Integration into Final Prediction Model: These predictions are fed into the Correlation Discovery Network, which merges the information to generate a final predictive output visualized as vertically aligned gray bars indicating the predicted classes or outcomes.
 
 ## Getting Started
+
 To get started with GENet, clone the repository and navigate to the installation directory:
 The model is implemented in Python and utilizes popular libraries such as NumPy and Matplotlib for data manipulation and visualization. Users can input their dataset, specify the model parameters, and run comprehensive genetic epidemiological analyses with ease.
 
+### 1. Clone the repository:
 
  ```bash
 git clone https://github.com/yourusername/GENet.git
 cd GENet
 ```
 
-## Install the required packages:
+### 2. Install the required packages
+
 !pip install -r requirements.txt
+
+### 3. Run the provided notebook:
+Upload the GEnet (1).ipynb file to your Google Colab environment and open it. Run the cells sequentially to execute the code.
+
+## Usage Examples
+Here are some basic steps to get started with GENet:
+
+1. Load your dataset:
+Adjust the code in the notebook to load your dataset as required.
+
+2. Train the model:
+Follow the steps in the notebook to train the model on your data.
+
+3. Predict and visualize:
+Use the trained model to make predictions and visualize the results.
+
 ## Contributions
 Contributions are welcome! If you have suggestions for improvements or new features, please feel free to fork the repository and submit a pull request.
 
