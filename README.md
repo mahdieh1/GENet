@@ -28,6 +28,9 @@ The model is implemented in Python and utilizes popular libraries such as NumPy 
 git clone https://github.com/yourusername/GENet.git
 cd GENet
 ```
+
+## Install the required packages:
+!pip install -r requirements.txt
 ## Contributions
 Contributions are welcome! If you have suggestions for improvements or new features, please feel free to fork the repository and submit a pull request.
 
