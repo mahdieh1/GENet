@@ -27,7 +27,7 @@ The model is implemented in Python and utilizes popular libraries such as NumPy 
 ### 1. Clone the repository:
 
  ```bash
-git clone https://github.com/yourusername/GENet.git
+git clone https://github.com/mahdieh1/GENet.git
 cd GENet
 ```
 
