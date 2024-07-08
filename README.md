@@ -39,16 +39,17 @@ cd GENet
 Upload the GEnet.ipynb file to your Google Colab environment and open it. Run the cells sequentially to execute the code.
 
 ## Usage Examples
-Here are some basic steps to get started with GENet:
+You can run the provided example by opening example.ipynb in Google Colab or Jupyter Notebook and running all the cells. This notebook demonstrates how to generate example data, construct similarity networks, train the GCN model, and perform regression.
 
-1. Load your dataset:
-Adjust the code in the notebook to load your dataset as required.
+### Defining User Input for the Model
+To define their input for the model, users need to provide input files in a specific format. Below are the details of the input and output formats:
 
-2. Train the model:
-Follow the steps in the notebook to train the model on your data.
+#### Input Format
+Cell Line Data:
+The input files should contain data for various cell lines. Each file should be a tab-separated values (TSV) file.
 
-3. Predict and visualize:
-Use the trained model to make predictions and visualize the results.
+#### Target Values:
+A separate file should contain the target values. This file should have a single column with the target values corresponding to each cell line.
 
 ## Contributions
 Contributions are welcome! If you have suggestions for improvements or new features, please feel free to fork the repository and submit a pull request.
