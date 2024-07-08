@@ -33,7 +33,7 @@ cd GENet
 
 ### 2. Install the required packages
 
-!pip install -r requirements.txt
+!pip install numpy pandas seaborn matplotlib scipy scikit-learn torch
 
 ### 3. Run the provided notebook:
 Upload the GEnet.ipynb file to your Google Colab environment and open it. Run the cells sequentially to execute the code.
