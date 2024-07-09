@@ -57,7 +57,7 @@ jupyter nbconvert --to notebook --execute GENet.ipynb
 
 
 ## Usage Examples
-You can run the provided example by opening example.ipynb in Google Colab or Jupyter Notebook and running all the cells. This notebook demonstrates how to generate example data, construct similarity networks, train the GCN model, and perform regression.
+You can run the provided example by opening Example.ipynb in Google Colab or Jupyter Notebook and running all the cells. This notebook demonstrates how to generate example data, construct similarity networks, train the GCN model, and perform regression.
 
 ### Defining User Input for the Model
 To define their input for the model, users need to provide input files in a specific format. Below are the details of the input and output formats:
