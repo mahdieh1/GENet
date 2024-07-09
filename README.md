@@ -22,7 +22,23 @@ Integration into Final Prediction Model: These predictions are fed into the Corr
 ## Getting Started
 
 To get started with GENet, clone the repository and navigate to the installation directory:
-The model is implemented in Python and utilizes popular libraries such as NumPy and Matplotlib for data manipulation and visualization. Users can input their dataset, specify the model parameters, and run comprehensive genetic epidemiological analyses with ease.
+## Running Google Colab
+
+### 1. Clone the repository:
+
+### 1. Clone the repository:
+
+!git clone https://github.com/mahdieh1/GENet.git
+%cd GENet
+
+### 2. Install the required packages
+
+!pip install numpy pandas seaborn matplotlib scipy scikit-learn torch
+
+### 3. Run the provided notebook:
+
+After cloning the repository and installing the packages, you can run the cells in the GENet.ipynb notebook.
+
 
 ### 1. Clone the repository:
 
@@ -33,10 +49,13 @@ cd GENet
 
 ### 2. Install the required packages
 
-!pip install numpy pandas seaborn matplotlib scipy scikit-learn torch
+pip install numpy pandas seaborn matplotlib scipy scikit-learn torch
 
 ### 3. Run the provided notebook:
-Upload the GEnet.ipynb file to your Google Colab environment and open it. Run the cells sequentially to execute the code.
+
+jupyter nbconvert --to notebook --execute GENet.ipynb
+
+
 
 ## Usage Examples
 You can run the provided example by opening example.ipynb in Google Colab or Jupyter Notebook and running all the cells. This notebook demonstrates how to generate example data, construct similarity networks, train the GCN model, and perform regression.
