@@ -37,6 +37,7 @@ To get started with GENet, clone the repository and navigate to the installation
 
 After cloning the repository and installing the packages, you can run the cells in the GENet.ipynb notebook.
 
+## Running on notebook
 
 ### 1. Clone the repository:
 
