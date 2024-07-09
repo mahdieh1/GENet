@@ -27,6 +27,7 @@ To get started with GENet, clone the repository and navigate to the installation
 ### 1. Clone the repository:
 
 !git clone https://github.com/mahdieh1/GENet.git
+
 %cd GENet
 
 ### 2. Install the required packages
